@@ -32,9 +32,3 @@ pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
 popd
-
-# 获取hello world和依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/helloworld/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/helloworld/luci-app-vssr
-./scripts/feeds update -a
-./scripts/feeds install -a
