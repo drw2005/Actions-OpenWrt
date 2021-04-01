@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-#  获取SSR+和依赖
+#  获取SSR PLUS+
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 获取hello world和依赖
