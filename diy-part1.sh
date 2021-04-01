@@ -10,8 +10,12 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-# Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#  获取hello world和依赖
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
+# 获取hello world和依赖
+git clone git clone https://github.com/jerrykuku/lua-maxminddb.git package/helloworld/lua-maxminddb
+git clone git clone https://github.com/jerrykuku/luci-app-vssr.git package/helloworld/luci-app-vssr
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 
