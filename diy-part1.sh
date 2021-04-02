@@ -23,5 +23,8 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/helloworld/luci
 # 获取关机插件
 git clone https://github.com/esirplayground/luci-app-poweroff package/poweroff/luci-app-poweroff
 
+# 获取ddnsto插件
+git clone https://github.com/linkease/ddnsto-openwrt package/ddnsto/uci-app-ddnsto
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
