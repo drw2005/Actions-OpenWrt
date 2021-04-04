@@ -21,13 +21,13 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/helloworld/lua-
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/helloworld/luci-app-vssr
 
 # 获取passwall插件
-git clone https://github.com/xiaorouji/openwrt-passwall package/passwall/luci-app-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall/luci-app-passwall
 
 # 获取关机插件
-git clone https://github.com/esirplayground/luci-app-poweroff package/poweroff/luci-app-poweroff
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/poweroff/luci-app-poweroff
 
 # 获取ddnsto插件
-git clone https://github.com/linkease/ddnsto-openwrt package/ddnsto/uci-app-ddnsto
+git clone https://github.com/linkease/ddnsto-openwrt.git package/ddnsto/uci-app-ddnsto
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
